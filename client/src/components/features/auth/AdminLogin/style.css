@@ -1,0 +1,114 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.sigin-registeration-form {
+  max-width: 1000px;
+  /* width: 800vw;  */
+  height: 100%;
+  margin: 2rem auto;
+  display: flex;
+  /* border: 1px solid #e9ecef; */
+  border-radius: 5px;
+  /* box-shadow: 1px 3px 8px #e9ecef; */
+  background-color: white;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.sigin-registeration-form span {
+  color: #adb5bd;
+}
+
+#signinForm {
+  max-width: 320px;
+  width: 100vw;
+  margin: 1.5em auto;
+}
+
+#signinForm > input,
+.btn {
+  border: 1px solid #e9ecef;
+  padding: 0.9em 1em;
+}
+
+#signinForm > input:focus {
+  outline: none;
+}
+
+#signinForm > .btn {
+  background: #8a33fd;
+  /* background: -webkit-linear-gradient(to right, #f8cdda, #1d2b64);
+    background: linear-gradient(to right, #f8cdda, #1d2b64); */
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+#signinForm > .btn:hover {
+  background-color: #7a2fdc;
+}
+
+.flexx {
+  display: flex;
+  gap: 1em;
+}
+
+.flexx2 {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.sigin-registeration-form .column-1 {
+  /* margin: auto; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3em 0;
+  position: relative;
+}
+.column-1 .signinHeader {
+  position: absolute;
+  top: 1.3%;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.column-1 .signinsubHeading {
+  /* position: absolute; */
+  /* left: 0; */
+  color: #adb5bd;
+  top: 1.3%;
+  /* font-size: 1.5rem; */
+  font-weight: 500;
+}
+.eye-icon2 {
+  color: rgba(185, 182, 182, 0.928);
+  position: absolute;
+  right: 4%;
+  top: 50%;
+}
+.linkk {
+  color: #000;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+.sigin-registeration-form .col-2 img {
+  height: 600px;
+  width: 500px;
+  object-fit: cover;
+  display: none;
+}
+
+@media screen and (min-width: 1100px) {
+  .sigin-registeration-form .col-2 img {
+    display: initial;
+  }
+}

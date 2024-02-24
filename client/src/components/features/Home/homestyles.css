@@ -1,0 +1,157 @@
+/* HeroSection.css */
+
+.hero-section {
+  /* position: relative; */
+  width: 100vw;
+  height: 80vh; /* Set the desired height */
+  background-image: url('../../../assets/homebg.svg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hero-content {
+  /* padding-left: 120px; */
+  color: white; /* Text color */
+  width: 50%;
+  margin-left: 50px;
+}
+.hero-content > h1 {
+  font-weight: 900;
+  font-size: 50px;
+}
+.btn {
+  padding: 10px 50px;
+  border-radius: 15px;
+  background-color: white;
+  color: rgb(82, 82, 82);
+  border: none;
+}
+.btn:hover {
+  color: white;
+  background-color: rgb(9, 34, 87);
+}
+
+/* card section */
+/* CardSection.css */
+
+.card-container {
+  display: flex;
+  width: 90vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 5vw;
+  column-gap: 0px;
+}
+
+.card {
+  width: 50%; /* Adjust the width as needed */
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  min-height: 250px;
+  background-size: cover;
+  background-position: center;
+  /* border-radius: 70px; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.card-image > h1,
+h6,
+h5,
+p {
+  margin-left: 30px;
+  /* line-height: 1px; */
+}
+.arrival {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  flex-wrap: wrap;
+  padding: 30px 0px;
+}
+.itemArrival {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 20vw;
+  min-width: 260px;
+  margin: 0px 20px;
+  border-radius: 12px;
+  min-width: 300px;
+}
+/* .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+  } */
+
+.heading-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.color {
+  background-color: #8a33fd;
+  height: 35px;
+  width: 6px;
+  margin: 0px 20px;
+  border-radius: 4px;
+}
+.center {
+  width: 99vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shop-btn {
+  background-color: #8a33fd;
+  color: white;
+  border-radius: 16px;
+  padding: 10px 40px;
+  border: none;
+}
+.shop-btn:hover {
+  color: #8a33fd;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #8a33fd;
+  transition: all ease-in 0.2s;
+}
+.brand-container {
+  margin: 20px 0px;
+}
+.content {
+  background-color: #3c4242;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.brand-card-img {
+  max-width: 70%;
+  min-width: 150px;
+  margin: 0px 20px;
+}

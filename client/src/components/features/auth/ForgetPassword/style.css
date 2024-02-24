@@ -1,0 +1,141 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0px;
+  
+  min-height: 70vh;
+}
+.side1 {
+  /* border: 1px solid red; */
+  max-width: 45%;
+  width: 44%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+}
+.side2 {
+  /* border: 1px solid rgb(0, 0, 0); */
+  min-width: 300px;
+  max-width: 55%;
+  width: 49%;
+  padding: 40px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image {
+  width: 100%;
+  height: 100%;
+}
+.heading {
+  color: #333;
+  font-family: poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  letter-spacing: 0.68px;
+}
+.parag {
+  color: rgba(102, 102, 102, 0.8);
+  font-family: poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  margin-left: 0px;
+}
+
+.side2Content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+    justify-content: flex-start; */
+  /* border: 1px solid grey; */
+  margin-top: 50px;
+  width: 38vw;
+}
+form label {
+  color: #3c4242;
+  font-family: poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.36px;
+}
+form input {
+  width: 100%;
+  height: 40px;
+  text-indent: 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(102, 102, 102, 0.8);
+  /* margin-bottom: 40px; */
+}
+.hideBtn {
+  width: 20px;
+  height: 20px;
+
+  /* justify-self: flex-start; */
+  margin-top: -45px;
+  /* margin-left: -40px; */
+  background: none;
+  border: none;
+  margin-left: -30px;
+}
+.paraRed {
+  color: #f00;
+  font-family: poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 131.25% */
+  margin-left: 0px;
+}
+
+.button {
+  color: white;
+  background-color: #8a33fd;
+  margin-top: 70px;
+  width: 200px;
+  border-radius: 8px;
+  padding: 12px 6px;
+  border: none;
+  font-family: poppins;
+  cursor: pointer;
+}
+.button:hover {
+  color: white;
+  background-color: #7613f7;
+}
+
+.loginback {
+  color: #3c4242;
+  text-decoration: none;
+  margin: 5px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50vw;
+  }
+}

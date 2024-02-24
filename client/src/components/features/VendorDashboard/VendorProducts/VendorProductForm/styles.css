@@ -1,0 +1,60 @@
+.form-container {
+    background-color: white;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-form {
+    background-color: #8a33fd;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5em 1.5em;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px #8b33fd94;
+  }
+  
+  .product-form h1 {
+    text-align: center;
+    color: white;
+  }
+  
+  .product-form input,
+  .product-form select {
+    padding: 1em;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: #8a33fd;
+  }
+  
+  .product-form input::placeholder {
+    color: #8a33fd;
+  }
+  
+  .product-form label {
+    margin: 1em 0 0.5em 0.5em;
+    color: white;
+  }
+  
+  .product-form button {
+    align-self: center;
+    margin-top: 2.5em;
+    padding: 1em 1.5em;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 30%;
+    color: #8a33fd;
+  }
+  
+  input[type="file"]::file-selector-button {
+    background-color: #8a33fd;
+    border: 2px dashed white;
+    padding: 1em 2em;
+    color: white;
+    border-radius: 5px;
+  }

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* overflow: hidden; */
+}
+
+.linkItems {
+  text-decoration: none;
+  color: #8a33fd;
+  font-family: inherit;
+  margin-left: 40px;
+  font-weight: 500;
+  display: flex;
+  align-items: 'center';
+  column-gap: 5px;
+  justify-content: center;
+}
+
+.underlinetext:hover {
+  text-decoration: underline;
+}

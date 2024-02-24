@@ -1,0 +1,134 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+body {
+  overflow-x: none;
+  /* background: #85bdc6; /* fallback for old browsers */
+  /* background: -webkit-linear-gradient( */
+  /* to right, */
+  /* #ffd194, */
+  /* #8dc5ce */
+  /* ); Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(
+      to right,
+      #ffd194,
+      #85bdc6 */
+  /* ); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.signup-registeration-form {
+  /* max-width: 1000px; */
+  /* width: 800vw;  */
+  height: 100%;
+  /* margin: 2rem auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid #e9ecef; */
+  border-radius: 5px;
+  /* box-shadow: 1px 3px 8px #e9ecef; */
+  background-color: white;
+  /* display: flex; */
+  /* justify-content: center;
+    align-items: center; */
+    gap: 100px;
+}
+
+.signup-registeration-form span {
+  color: #adb5bd;
+  position: absolute;
+  top: 10%;
+}
+
+#signupForm {
+  max-width: 320px;
+  width: 100vw;
+  margin: 2em auto;
+}
+
+#signupForm > input,
+.btn {
+  border: 1px solid #e9ecef;
+  padding: 0.9em 1em;
+}
+
+#signupForm > input:focus {
+  outline: none;
+}
+
+#signupForm > .btn {
+  background-color: #8a33fd;
+  /* background: -webkit-linear-gradient(to right, #F8CDDA, #1D2B64); 
+  background: linear-gradient(to right, #F8CDDA, #1D2B64);  */
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+#signupForm > .btn:hover {
+  background-color: #7a2fdc;
+}
+
+.flexx {
+  display: flex;
+  gap: 1em;
+}
+
+.flexx2 {
+  display: flex;
+  gap: 0.2rem;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+.signup-registeration-form .col-1 {
+  margin: auto;
+  padding: 3em 0;
+  position: relative;
+}
+.col-1 .signupHeading {
+  position: absolute;
+  top: 1.3%;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.col-1 .signupsubHeading {
+  /* position: absolute; */
+  /* left: 0; */
+  color: #adb5bd;
+  top: 1.3%;
+  /* font-size: 1.5rem; */
+  font-weight: 500;
+}
+.eye-icon-1 {
+  color: rgba(185, 182, 182, 0.928);
+  position: absolute;
+  right: 4%;
+  top: 57%;
+}
+.link {
+  color: #000;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+.signup-registeration-form .col-2 img {
+  width: 500px;
+  height: 600px;
+  object-fit: cover;
+  /* object-fit: cover;
+    align-self: flex-end;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; */
+  display: none;
+}
+
+@media screen and (min-width: 1100px) {
+  .signup-registeration-form .col-2 img {
+    display: initial;
+  }
+}
